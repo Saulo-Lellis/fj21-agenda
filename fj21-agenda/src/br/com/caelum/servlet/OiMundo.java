@@ -25,11 +25,8 @@ HttpServletResponse response) throws ServletException, IOException {
 		out.println("<body>");
 		out.println("<h1> Oi mundo Servlet ! </h1>");
 		out.println("</body>");
-		out.println("<html>");		
+		out.println("</html>");		
 		
-		super.service(request,response);
-	}
-	
-	
-	
+		//super.service(request,response);
+	}	
 }
