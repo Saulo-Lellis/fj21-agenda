@@ -1,6 +1,4 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -21,7 +19,7 @@
 		<!--percorre contatos montando a linha da tabela -->
 
 
-		<!-- tr È coluna -->
+		<!-- tr √© coluna -->
 
 
 		<tr>
@@ -29,7 +27,7 @@
 			<!-- Linha -->
 			<td>Nome</td>
 			<td>E-mail</td>
-			<td>EndereÁo</td>
+			<td>Endere√ßo</td>
 			<td>Data de Nascimento</td>
 
 		</tr>
@@ -45,7 +43,7 @@
 
 				<td>${contato.nome}</td>
 
-				<!-- VerificaÁ„o de email vazio -->
+				<!-- Verifica√ß√£o de email vazio -->
 				<td><c:choose>
 
 						<c:when test="${not empty contato.email}">
@@ -56,7 +54,7 @@
 
 						<c:otherwise>
 			
-						Email n„o informado			
+						Email n√£o informado			
 			
 					</c:otherwise>
 
@@ -77,7 +75,6 @@
 
 			</tr>
 
-		</c:forEach>
 		</c:forEach>
 
 	</table>
